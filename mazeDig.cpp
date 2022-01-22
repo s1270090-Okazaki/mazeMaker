@@ -8,7 +8,7 @@ using namespace std;
 const int m_wall = 1;         //壁
 const int m_empty = 0;        //通路
 const int MIN_BAL = 5;        //map最小値
-const int MAX_BAL = 10;       //map最大値
+const int MAX_BAL = 30;       //map最大値
 vector<vector<size_t> > map;  //map(vectorの2次元配列)
 vector<int> CDPath;           //掘削候補地
 
